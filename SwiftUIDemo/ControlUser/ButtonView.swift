@@ -16,7 +16,7 @@ struct ButtonView: View {
         ZStack{
             
             Rectangle()
-                .frame(height: 400)
+                .frame(height: 500)
                 .foregroundColor(.mint)
             
             VStack(spacing: 20){
@@ -28,6 +28,10 @@ struct ButtonView: View {
                     Text("Aparecer".uppercased()).font(.title)
                         .bold()
                         .foregroundColor(.white)
+                        .padding()
+                        .background(.blue)
+                        .clipShape(.buttonBorder)
+                        
                 })
                     
                     
@@ -39,6 +43,10 @@ struct ButtonView: View {
                     .font(.title)
                     .bold()
                     .foregroundColor(.black)
+                    .padding()
+                    .background(.blue)
+                    .clipShape(.buttonBorder)
+                    
                 
                
                 Button("\(contador) : pulsaciones".uppercased(), action: {

@@ -10,6 +10,7 @@
 		BC7054412B1D944E00005F71 /* AxisStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC7054402B1D944E00005F71 /* AxisStackView.swift */; };
 		BC7054432B1D9E3B00005F71 /* IconsAndSFView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC7054422B1D9E3B00005F71 /* IconsAndSFView.swift */; };
 		BC7054462B1DA39400005F71 /* LabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC7054452B1DA39400005F71 /* LabelView.swift */; };
+		BC7054482B1DBF8C00005F71 /* StateDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC7054472B1DBF8C00005F71 /* StateDemo.swift */; };
 		BC73CF182B1C2CFB0022E98B /* SwiftUIDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC73CF172B1C2CFB0022E98B /* SwiftUIDemoApp.swift */; };
 		BC73CF1A2B1C2CFB0022E98B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC73CF192B1C2CFB0022E98B /* ContentView.swift */; };
 		BC73CF1C2B1C2CFE0022E98B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC73CF1B2B1C2CFE0022E98B /* Assets.xcassets */; };
@@ -23,6 +24,7 @@
 		BC7054402B1D944E00005F71 /* AxisStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AxisStackView.swift; sourceTree = "<group>"; };
 		BC7054422B1D9E3B00005F71 /* IconsAndSFView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconsAndSFView.swift; sourceTree = "<group>"; };
 		BC7054452B1DA39400005F71 /* LabelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelView.swift; sourceTree = "<group>"; };
+		BC7054472B1DBF8C00005F71 /* StateDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateDemo.swift; sourceTree = "<group>"; };
 		BC73CF142B1C2CFB0022E98B /* SwiftUIDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC73CF172B1C2CFB0022E98B /* SwiftUIDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIDemoApp.swift; sourceTree = "<group>"; };
 		BC73CF192B1C2CFB0022E98B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -78,6 +80,7 @@
 				BC73CF172B1C2CFB0022E98B /* SwiftUIDemoApp.swift */,
 				BC73CF192B1C2CFB0022E98B /* ContentView.swift */,
 				BC7054442B1D9E6900005F71 /* Components */,
+				BC7054472B1DBF8C00005F71 /* StateDemo.swift */,
 				BCEEF8C32B1C470400E61AD5 /* Component.swift */,
 				BC73CF1B2B1C2CFE0022E98B /* Assets.xcassets */,
 				BC73CF1D2B1C2CFE0022E98B /* Preview Content */,
@@ -164,6 +167,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BCEEF8C62B1C479C00E61AD5 /* ImageView.swift in Sources */,
+				BC7054482B1DBF8C00005F71 /* StateDemo.swift in Sources */,
 				BC73CF1A2B1C2CFB0022E98B /* ContentView.swift in Sources */,
 				BC73CF262B1C2D3D0022E98B /* TextView.swift in Sources */,
 				BC7054412B1D944E00005F71 /* AxisStackView.swift in Sources */,

@@ -9,7 +9,7 @@ import SwiftUI
 
 struct StateDemo: View {
     
-    @State var contador : Int = 0
+    @State var contador: Int = 0
     
     var body: some View {
         

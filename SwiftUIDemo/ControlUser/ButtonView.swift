@@ -9,8 +9,8 @@ import SwiftUI
 
 struct ButtonView: View {
     
-    @State var saludo : String = ""
-    @State var contador : Int = 0
+    @State var saludo: String = ""
+    @State var contador: Int = 0
     
     var body: some View {
         ZStack{

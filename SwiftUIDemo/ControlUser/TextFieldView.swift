@@ -9,8 +9,8 @@ import SwiftUI
 
 struct TextFieldView: View {
     
-    @State var username : String = ""
-    @State var password : String = ""
+    @State var username: String = ""
+    @State var password: String = ""
     
     var body: some View {
       

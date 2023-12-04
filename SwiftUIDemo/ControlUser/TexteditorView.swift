@@ -36,6 +36,5 @@ struct TexteditorView: View {
 
 #Preview {
     TexteditorView()
-        
 }
 

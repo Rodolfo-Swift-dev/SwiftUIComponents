@@ -34,3 +34,7 @@ import Foundation
 //10-DatePicker
 
 //11-ColorPicker
+
+//12-ProgressView
+
+//13-Link

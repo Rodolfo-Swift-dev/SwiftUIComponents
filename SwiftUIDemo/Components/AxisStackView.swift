@@ -7,6 +7,11 @@
 
 import SwiftUI
 
+
+//Stacks en SwiftUI(VStack, HStack, ZStack)
+//son contenedores que nos ayudan a distribuir nuestras vistas a nuestro antojo para poder componer las pantalla de nuestra App.
+
+
 struct AxisStackView: View {
     
     var body: some View {

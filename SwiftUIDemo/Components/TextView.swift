@@ -8,6 +8,10 @@
 import SwiftUI
 
 
+//Text
+//vista que nos permite mostrar un texto, el cual podemos personalizar y configurar sus propiedades con modificadores.
+
+
 struct TextView : View {
     
     var body: some View{

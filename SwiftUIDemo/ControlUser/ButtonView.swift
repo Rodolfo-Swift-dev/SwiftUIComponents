@@ -7,6 +7,12 @@
 
 import SwiftUI
 
+
+//Button
+//encargado de recibir interaccion de usuario y luego configurar codigo que reaccione a la iteraccion. Ejemplo : navegar a otra pantalla, peticiones, animaciones, etc.
+//esta vista recibe una interaccion y perfectamente esta iteraccion podriamos asociarla y almacenarla dentro de una variable, por lo que debemos crear una propiedad mutable @State
+
+
 struct ButtonView: View {
     
     @State var saludo: String = ""

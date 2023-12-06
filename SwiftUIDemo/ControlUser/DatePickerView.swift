@@ -7,9 +7,18 @@
 
 import SwiftUI
 
+
+//DatePicker
+//Vista que permite al usuario seleccionar una fecha, es decir, un selector de fechas
+//podemos seleccionar fechaActual - fechaFutura o fechaActual - fechaPasada
+//tambien podemos incluso recuperar horas o fecha y hora
+//esta vista recibe un parametro de tipo binding String por lo que debemos crear una propiedad mutable @State
+
+
 struct DatePickerView: View {
     
     @State var currentDate = Date()
+    
     var body: some View {
         
         //vista de seleccion de fecha y hora

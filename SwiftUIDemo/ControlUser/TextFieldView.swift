@@ -7,6 +7,15 @@
 
 import SwiftUI
 
+
+//TextField
+//campo de texto en donde el usuario puede introducir  caracteres, brindandonos informacion. Ejemplo Password, Formularios, etc.
+//Cabe señalar que podemos personalizar el teclado emergente que se adapte mejor a nuestras necesidades
+//SecureField
+//campo de texto seguro especial para contraseñas ya que no permite ver los caracteres introducidos
+//esta vista editor de texto recibe un parametro de tipo binding String por lo que debemos crear una propiedad mutable @State
+
+
 struct TextFieldView: View {
     
     @State var username: String = ""
@@ -45,7 +54,7 @@ struct TextFieldView: View {
                 .clipShape(.rect(cornerRadius: 8))
                 .padding(.horizontal, 30)
                
-            //campo de texto segura especial para contraseñas ya que no permite ver los caracteres introducidos
+            //campo de texto seguro especial para contraseñas ya que no permite ver los caracteres introducidos
             SecureField ("Password", text: $password)
                         //teclado disponible para insertar caracteres de correo
                 .keyboardType(.default)

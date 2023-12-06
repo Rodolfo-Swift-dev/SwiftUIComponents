@@ -8,6 +8,11 @@
 import SwiftUI
 
 
+//ProgressView
+//vista de progreso donde retroalimentamos con informacion al usuario que algun proceso esta cargando o lo mismo pero expresando porcentualmente el progreso desde 0 a 1 como numero flotante.
+//existe una barra de progreso lineal que tiene un rango porcentual y existe otra barra de progreso circular que es infinita, recomendable mostrar cuando esta cargando algun proceso
+//cuando el progreso es numerico y almacenado, esta vista recibe un parametro de tipo binding String por lo que debemos crear una propiedad mutable @State
+
 
 struct ProgressViewView: View {
     

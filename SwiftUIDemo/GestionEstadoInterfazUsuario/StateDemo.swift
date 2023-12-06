@@ -7,15 +7,19 @@
 
 import SwiftUI
 
+
+//@State
+//las vistas en SwiftUI son creadas a traves de Struct, de tipos de valor, para poder mutar sus propiedades usamos el propertyWrapper @State.
+//con tan solo anteponer @State antes de var facutamos a la propiedad para que cambie y cumpla la funcion de regenerar la vista cuando esto suceda
+//fuente de la verdad
+
+
 struct StateDemo: View {
     
     @State var contador: Int = 0
     
     var body: some View {
-        
-        //las vistas en SwiftUI son creadas a traves de Struct, de tipos de valor, para poder mutar sus propiedades usamos el propertyWrapper @State.
-        //con tan solo anteponer @State antes de var facutamos a la propiedad para que cambie y cumpla la funcion de regenerar la vista cuando esto suceda
-        //fuente de la verdad
+       
         Text("\(contador) : Pulsaciones")
         
         Button("Añadir"){

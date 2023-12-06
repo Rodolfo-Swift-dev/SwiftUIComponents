@@ -7,13 +7,18 @@
 
 import SwiftUI
 
+
+//Iconos y SFSymbols
+//en la aplicacion SFSymbols cuentas con mas de 4000 iconos disponibles.
+//incluso hay iconos que se les puede modificar su color de relleno
+//hay iconos restringidos para usos especificos como el simbolo de Safari
+
+
 struct IconsAndSFView: View {
     
     var body: some View {
         
-        //en la aplicacion SFSymbols cuentas con mas de 4000 iconos disponibles.
-        //incluso hay iconos que se les puede modificar su color de relleno
-        //hay iconos restringidos para usos especificos como el simbolo de Safari
+        
         Image(systemName: "person.3.sequence.fill")
         //renderizado de simbolo original
             .renderingMode(.original)

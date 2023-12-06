@@ -7,6 +7,12 @@
 
 import SwiftUI
 
+
+//ColorPicker
+//Vista que permite al usuario seleccionar un color
+//esta vista recibe un parametro de tipo binding String por lo que debemos crear una propiedad mutable @State
+
+
 struct ColorPickerView: View {
     
     @State var color: Color = .white

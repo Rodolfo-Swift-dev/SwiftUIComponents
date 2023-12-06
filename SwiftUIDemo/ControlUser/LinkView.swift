@@ -7,6 +7,11 @@
 
 import SwiftUI
 
+
+//Link
+//si el User hace tap o clic  en nuestra vista, podemos navegar a una url especificada
+
+
 struct LinkView: View {
     
     var body: some View {

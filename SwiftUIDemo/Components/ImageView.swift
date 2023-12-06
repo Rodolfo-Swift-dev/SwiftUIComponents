@@ -7,6 +7,11 @@
 
 import SwiftUI
 
+
+//Image
+//vista que muestra una imagen en SwiftUI, puede ser formato .pdf, .png y .svg.
+
+
 struct ImageView: View {
     var body: some View {
         

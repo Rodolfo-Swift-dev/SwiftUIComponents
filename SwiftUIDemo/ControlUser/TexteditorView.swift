@@ -7,6 +7,11 @@
 
 import SwiftUI
 
+//TextEditor
+//similar al textfield pero permite añadir mas contenido, inclusive poder hacer scroll
+//esta vista editor de texto recibe un parametro de tipo binding String por lo que debemos crear una propiedad mutable @State
+
+
 struct TexteditorView: View {
     
     @State var text: String = "Escribe algo"
@@ -14,8 +19,7 @@ struct TexteditorView: View {
     
     var body: some View {
         
-        //similar al textfield pero permite añadir mas contenido, inclusive poder hacer scroll
-        //este editor recibe un parametro de tipo binding String por lo que debemos crear una propiedad mutable @State
+      
         TextEditor(text: $text)
             .font(.title)
             .keyboardType(.default)

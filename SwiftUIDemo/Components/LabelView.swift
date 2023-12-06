@@ -7,6 +7,11 @@
 
 import SwiftUI
 
+
+//Label
+//vista que muestra un icono y un texto, ademas alternativamente podemos por necesidad o requerimientos alternar para ver solo el icono o solo el texto
+
+
 struct LabelView: View {
     var body: some View {
         

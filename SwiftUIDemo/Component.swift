@@ -38,3 +38,5 @@ import Foundation
 //12-ProgressView
 
 //13-Link
+
+//14-Toggle
